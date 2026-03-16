@@ -5,10 +5,7 @@
 
 // Smooth scroll functions
 function scrollToForm() {
-    const form = document.getElementById('application');
-    if (form) {
-        form.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    window.location.href = 'https://admissions.kanchiuniv.ac.in/';
 }
 
 function scrollToPrograms() {
